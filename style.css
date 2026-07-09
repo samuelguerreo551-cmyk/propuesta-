@@ -214,19 +214,37 @@ button{
 
     }
 
-  /*=========================
-CELULARES
-=========================*/
+}
+
+
+/* ===========================
+   DISEÑO PARA CELULARES
+=========================== */
 
 @media (max-width:768px){
 
-    .contenedor{
+   body{
 
-        padding:25px;
+    padding:10px;
 
-        border-radius:18px;
+    min-height:auto;
 
-    }
+    align-items:center;
+
+}
+
+  .contenedor{
+
+    width:100%;
+
+    max-width:650px;
+
+    padding:25px 20px;
+
+    border-radius:18px;
+
+}
+
 
     #titulo{
 
@@ -236,11 +254,13 @@ CELULARES
 
     }
 
+
     #mensaje{
 
         font-size:22px;
 
     }
+
 
     p{
 
@@ -250,6 +270,7 @@ CELULARES
 
     }
 
+
     .imagen img{
 
         width:180px;
@@ -258,20 +279,24 @@ CELULARES
 
     }
 
+
     .botones{
+
+        flex-direction:column;
 
         gap:15px;
 
     }
 
+
     button{
+
+        width:100%;
 
         padding:15px 25px;
 
         font-size:18px;
 
     }
-
-}
 
 }
