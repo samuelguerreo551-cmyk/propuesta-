@@ -282,21 +282,25 @@ button{
 
     .botones{
 
-        flex-direction:column;
+    flex-direction:column;
 
-        gap:15px;
+    align-items:center;
 
-    }
+    gap:15px;
+
+}
 
 
     button{
 
-        width:100%;
+    width:auto;
 
-        padding:15px 25px;
+    min-width:140px;
 
-        font-size:18px;
+    padding:12px 25px;
 
-    }
+    font-size:18px;
+
+}
 
 }
