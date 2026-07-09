@@ -12,7 +12,7 @@ body{
 
     font-family:'Poppins',sans-serif;
 
-    height:100vh;
+    min-height:100vh;
 
     display:flex;
 
@@ -20,7 +20,9 @@ body{
 
     align-items:center;
 
-    overflow:hidden;
+    padding:20px;
+
+    overflow-x:hidden;
 
     background-image:url("https://raw.githubusercontent.com/samuelguerreo551-cmyk/imagenes-importantes/main/bf31144f-96c7-4876-b868-98b78a5ccd09.jpeg");
 
@@ -30,8 +32,6 @@ body{
 
     background-repeat:no-repeat;
 
-    background-attachment:fixed;
-
 }
 
 /* ===========================
@@ -40,12 +40,11 @@ body{
 
 .contenedor{
 
-    width:90%;
-    max-width:650px;
+    width:min(95%,650px);
 
     background:white;
 
-    padding:45px;
+    padding:40px;
 
     border-radius:25px;
 
@@ -215,31 +214,39 @@ button{
 
     }
 
-   /* ===========================
-   DISEÑO PARA CELULARES
-=========================== */
+  /*=========================
+CELULARES
+=========================*/
 
-@media (max-width: 768px){
+@media (max-width:768px){
 
     .contenedor{
 
-        width:95%;
-
         padding:25px;
 
-        border-radius:20px;
+        border-radius:18px;
 
     }
 
     #titulo{
 
-        font-size:1.7rem;
+        font-size:32px;
+
+        line-height:1.2;
 
     }
 
     #mensaje{
 
-        font-size:1.2rem;
+        font-size:22px;
+
+    }
+
+    p{
+
+        font-size:18px;
+
+        line-height:1.6;
 
     }
 
@@ -253,17 +260,13 @@ button{
 
     .botones{
 
-        flex-direction:column;
-
-        align-items:center;
-
         gap:15px;
 
     }
 
     button{
 
-        width:180px;
+        padding:15px 25px;
 
         font-size:18px;
 
