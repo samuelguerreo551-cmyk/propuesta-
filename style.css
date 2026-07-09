@@ -1,0 +1,218 @@
+/* ===========================
+   CONFIGURACIÓN GENERAL
+=========================== */
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+
+    font-family:'Poppins',sans-serif;
+
+    height:100vh;
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+    overflow:hidden;
+
+    background-image:url("https://raw.githubusercontent.com/samuelguerreo551-cmyk/imagenes-importantes/main/bf31144f-96c7-4876-b868-98b78a5ccd09.jpeg");
+
+    background-size:cover;
+
+    background-position:center;
+
+    background-repeat:no-repeat;
+
+    background-attachment:fixed;
+
+}
+
+/* ===========================
+   CONTENEDOR
+=========================== */
+
+.contenedor{
+
+    width:90%;
+    max-width:650px;
+
+    background:white;
+
+    padding:45px;
+
+    border-radius:25px;
+
+    text-align:center;
+
+    box-shadow:0 15px 40px rgba(0,0,0,.18);
+
+    animation:aparecer .8s ease;
+
+}
+
+/* ===========================
+   TÍTULO
+=========================== */
+
+#titulo{
+
+    color:#ff3f81;
+
+    font-size:2rem;
+
+    margin-bottom:20px;
+
+}
+
+/* ===========================
+   MENSAJE
+=========================== */
+
+#mensaje{
+
+    font-size:1.4rem;
+
+    color:#444;
+
+    margin-bottom:35px;
+
+}
+
+/* ===========================
+   IMAGEN
+=========================== */
+
+.imagen{
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+    margin-bottom:35px;
+
+}
+
+.imagen img{
+
+    width:220px;
+
+    height:220px;
+
+    object-fit:cover;
+
+    border-radius:20px;
+
+    box-shadow:0 10px 25px rgba(0,0,0,.25);
+
+    transition:0.4s;
+
+}
+
+.imagen img:hover{
+
+    transform:scale(1.05);
+
+}
+
+/* ===========================
+   BOTONES
+=========================== */
+
+.botones{
+
+    display:flex;
+
+    justify-content:center;
+
+    gap:20px;
+
+}
+
+button{
+
+    padding:15px 35px;
+
+    font-size:20px;
+
+    font-weight:600;
+
+    border:none;
+
+    border-radius:15px;
+
+    cursor:pointer;
+
+    transition:.3s;
+
+}
+
+/* BOTÓN SÍ */
+
+#btnSi{
+
+    background:#ff3f81;
+
+    color:white;
+
+    box-shadow:0 8px 20px rgba(255,63,129,.35);
+
+}
+
+#btnSi:hover{
+
+    transform:translateY(-5px) scale(1.05);
+
+    box-shadow:0 15px 30px rgba(255,63,129,.5);
+
+}
+
+/* BOTÓN NO */
+
+#btnNo{
+
+    background:#ececec;
+
+    color:#333;
+
+}
+
+#btnNo:hover{
+
+    background:#d8d8d8;
+
+    transform:translateY(-3px);
+
+}
+
+/* ===========================
+   ANIMACIÓN
+=========================== */
+
+@keyframes aparecer{
+
+    from{
+
+        opacity:0;
+
+        transform:translateY(30px);
+
+    }
+
+    to{
+
+        opacity:1;
+
+        transform:translateY(0);
+
+    }
+
+}
