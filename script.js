@@ -18,7 +18,7 @@ const frases = [
     "El botón correcto es el rosado 😏",
     "¡Casi lo logras! Ahora pulsa Sí 🤭",
     "! segura que no quieres estar conmigo",
-    "AAAYYY NO ME AMA 😭"
+    "AAAYYY NO ME AMA 😭",
 ];
 
 let intentos = 0;
