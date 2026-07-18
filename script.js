@@ -89,7 +89,7 @@ btnSi.addEventListener("click", () => {
         <br>
 
 <img
-    src="https://raw.githubusercontent.com/samuelguerreo551-cmyk/imagenes-importantes/main/WhatsApp%20Image%202026-07-09%20at%204.41.00%20PM.jpeg"
+    src="https://raw.githubusercontent.com/samuelguerreo551-cmyk/imagenes-importantes/main/WhatsApp%20Image%202026-07-18%20at%202.04.49%20PM.jpeg"
     alt="Nuestra foto"
     style="
     width:260px;
