@@ -10,14 +10,14 @@ const contenedor = document.querySelector(".contenedor");
 // Frases que aparecerán al pulsar "No"
 const frases = [
     "¿Segura? 🥺",
-    "Piénsalo otra vez ❤️",
+    "Piénsalo bien ❤️",
     "No acepto esa respuesta 😭",
     "Vamos... dame una oportunidad 😋",
     "Estoy esperando el Sí 😩",
     "¿De verdad vas a decir que no? 🥹",
     "El botón correcto es el rosado 😏",
-    "¡Casi lo logras! Ahora pulsa Sí 🤭"
-    "! segura que no quieres estar conmigo"
+    "¡Casi lo logras! Ahora pulsa Sí 🤭",
+    "! segura que no quieres estar conmigo",
     "AAAYYY NO ME AMA 😭"
 ];
 
