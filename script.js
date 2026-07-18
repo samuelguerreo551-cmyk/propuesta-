@@ -17,7 +17,7 @@ const frases = [
     "¿De verdad vas a decir que no? 🥹",
     "El botón correcto es el rosado 😏",
     "¡Casi lo logras! Ahora pulsa Sí 🤭",
-    "! segura que no quieres estar conmigo",
+    "!segura que no quieres estar conmigo",
     "AAAYYY NO ME AMA 😭",
 ];
 
